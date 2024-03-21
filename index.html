@@ -24,7 +24,7 @@
 <!-- <meta name="description" content="Puzzl is a Cape Town based digital agency offering expert web development services. Affordability and quality are the pillars of our work. Contact us for more information on how we can help you improve your web presence online.">
 <link rel="canonical" href="https://www.puzzl.co.za/">
 <meta property="og:url" content="https://www.puzzl.co.za/"> -->
-<meta property="og:image" content="/images/metalogo.jpg">
+<meta property="og:image" content="images/metalogo.jpg">
     <!-- <script src="/js/application.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script> -->
   </head>
 
@@ -35,9 +35,9 @@
 		<div class="position-relative container-fluid">
 			<!-- Skip to main content -->
 <a href="#content" class="skip-to-main sr-only-focusable" role="button">Skip to main content</a>
-
-			<a aria-expanded="false" aria-haspopup="true" data-bs-scroll="true" href="/#heading">
-				<img title="" alt="" width="200" src="/images/logo.png" />
+<!-- change these hrefs as well !! -->
+			<a aria-expanded="false" aria-haspopup="true" data-bs-scroll="true" href="/">
+				<img title="" alt="" width="200" src="images/logo.png" />
 </a>      <!-- Toggler -->
 			<button class="navbar-toggler ml-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -47,8 +47,9 @@
       	<!-- Navigation -->
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
-						<a class="nav-link" aria-expanded="false" aria-haspopup="true" data-bs-scroll="true" role="button" href="/#what_puzzl_offers">What Puzzl offers</a>
-					</li>
+						<a class="nav-link" aria-expanded="false" aria-haspopup="true" data-bs-scroll="true" role="button" id="/#what_puzzl_offers">What Puzzl offers</a>
+            <div id="what_puzzl_offers">What Puzzl Offers</div>
+          </li>
 					<li class="nav-item">
 						<a class="nav-link" aria-expanded="false" aria-haspopup="true" data-bs-scroll="true" role="button" href="/#what_is_puzzl">What is Puzzl</a>
           </li>
@@ -78,14 +79,13 @@
       <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade-right">
         <div class="py-12 py-lg-15">
           <div class="bg-image mr-lg-5" style="display: flex; justify-content: center;" >
-          <img title="" alt="" src="/images/logoforweb.png" />
+          <img title="" alt="" src="images/logoforweb.png" />
           </div>
         </div>
       </div>
       <div class="col-lg-4" data-aos="fade-left">
         <h1>We don’t see problems, we see puzzles that we can solve.</h1>
-        <p><p>Your great idea deserves a great software development team to bring your vision to life.</p>
-</p>
+        <p>Your great idea deserves a great software development team to bring your vision to life.</p>
       </div>
     </div>
   </div>
@@ -229,29 +229,29 @@
 
 <!--What is puzzl-->
 <section class="py-2 my-4 scroll-mt-104" id="what_is_puzzl">
-  <div class="container">
-    <div class="row align-items-center">
-      <div  class="col-lg-6 pr-5" data-aos="fade-right">
-        <h1>What is Puzzl?</h1>
-        <p>Puzzl delivers senior software developer workmanship at an affordable price no matter the build. The Puzzl experience hinges on four core principles:</p>
-        <h4><i class="fa fa-university" aria-hidden="true">&nbsp</i>Access to expert software developers</h4>
-        <p>Senior software developers correspond directly with clients and take full accountability for the project. Over time, rookie software developers are integrated into correspondence on the project as their skills develop to ensure they are up to the task and ready to help to the best of their abilities.</p>
-        <h4><i class="fa fa-users" aria-hidden="true">&nbsp</i>Skills development</h4>
-        <p>Puzzl aims to help reduce the dual challenge of software skill shortage and high unemployment. Novice software developers learn coding and professional skills through working with a highly skilled senior software developer on a daily basis, where they are brought up through our mentor programs in order to build up their knowledge and experience.
-</p>
-        <h4><i class="fa fa-graduation-cap" aria-hidden="true">&nbsp</i>Symbiotic rookie-mentor relationships</h4>
-        <p>Having simpler coding tasks completed by supervised rookies reduces the cost of the Puzzl experience. Senior mentors work alongside rookie software developers and review all code to ensure quality standards are adhered to throughout the entire project, while passing on valuable knowledge to the next generation of developers.</p>
-        <h4 ><i class="fa fa-bar-chart" aria-hidden="true">&nbsp</i>Reducing project stress</h4>
-        <p>The synergetic mentor-rookie relationship ensures that project knowledge is shared and never rests on a single person. In this way, Puzzl reduces the debilitating costs of churn and ensures the project always runs smoothly and in a timely manner whilst ensuring you, the client, is always kept up to date.</p>
-      </div>
-      <!-- <div class="col-lg-6 pr-5" data-aos="fade-left">
-        <div class="row no-gutters mx-n2 mx-lg-0 bg-cover" data-jarallax data-speed=".8">
-          <img class="display-none-mobile" src="/assets/photos/puzzle2-e0945f3d33d29bdeb7b16a83a86bd5b415dab3614ff966e489b2f7add79069f4.jpg" />
+    <div class="container">
+      <div class="row align-items-center">
+        <div  class="col-lg-6 pr-5" data-aos="fade-right">
+          <h1 id="what_is_puzzl">What is Puzzl?</h1>
+          <p>Puzzl delivers senior software developer workmanship at an affordable price no matter the build. The Puzzl experience hinges on four core principles:</p>
+          <h4><i class="fa fa-university" aria-hidden="true">&nbsp</i>Access to expert software developers</h4>
+          <p>Senior software developers correspond directly with clients and take full accountability for the project. Over time, rookie software developers are integrated into correspondence on the project as their skills develop to ensure they are up to the task and ready to help to the best of their abilities.</p>
+          <h4><i class="fa fa-users" aria-hidden="true">&nbsp</i>Skills development</h4>
+          <p>Puzzl aims to help reduce the dual challenge of software skill shortage and high unemployment. Novice software developers learn coding and professional skills through working with a highly skilled senior software developer on a daily basis, where they are brought up through our mentor programs in order to build up their knowledge and experience.
+  </p>
+          <h4><i class="fa fa-graduation-cap" aria-hidden="true">&nbsp</i>Symbiotic rookie-mentor relationships</h4>
+          <p>Having simpler coding tasks completed by supervised rookies reduces the cost of the Puzzl experience. Senior mentors work alongside rookie software developers and review all code to ensure quality standards are adhered to throughout the entire project, while passing on valuable knowledge to the next generation of developers.</p>
+          <h4 ><i class="fa fa-bar-chart" aria-hidden="true">&nbsp</i>Reducing project stress</h4>
+          <p>The synergetic mentor-rookie relationship ensures that project knowledge is shared and never rests on a single person. In this way, Puzzl reduces the debilitating costs of churn and ensures the project always runs smoothly and in a timely manner whilst ensuring you, the client, is always kept up to date.</p>
         </div>
-      </div> -->
+        <!-- <div class="col-lg-6 pr-5" data-aos="fade-left">
+          <div class="row no-gutters mx-n2 mx-lg-0 bg-cover" data-jarallax data-speed=".8">
+            <img class="display-none-mobile" src="immages/puzzle2.jpg" />
+          </div>
+        </div> -->
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
 <!-- testimonials -->
 <section class="py-5 my-4 bg-light scroll-mt-104" id="testimonials">
@@ -294,7 +294,7 @@
     <div class="row justify-content-center text-center">
         <div class="col-md-3 mb-5">
     <div class="swiper-slide "> 
-      <img title="" alt="" class="img-fluid rounded-circle my-3" src="/images/Jono.jpg" />
+      <img title="" alt="" class="img-fluid rounded-circle my-3" src="images/Jono.jpg" />
     <br>
       <small><strong>Jono Booth</strong><br/>
       Founder and Lead Developer<br/>
@@ -314,7 +314,7 @@
   </div>
   <div class="col-md-3 mb-5">
     <div class="swiper-slide "> 
-      <img class="img-fluid rounded-circle my-3" src="/images/Leon.jpg" />
+      <img class="img-fluid rounded-circle my-3" src="images/Leon.jpg" />
     <br>
       <small><strong>Leon Voss</strong><br/>
       Developer<br/>
@@ -324,7 +324,7 @@
   </div>
   <div class="col-md-3 mb-5">
     <div class="swiper-slide "> 
-      <img title="" alt="" class="img-fluid rounded-circle my-3" src="/images/Liam.jpg" />
+      <img title="" alt="" class="img-fluid rounded-circle my-3" src="images/Liam.jpg" />
     <br>
       <small><strong>Liam Paris</strong><br/>
       Developer<br/>
@@ -334,7 +334,7 @@
   </div>
   <div class="col-md-3 mb-5">
     <div class="swiper-slide "> 
-      <img title="" alt="" class="img-fluid rounded-circle my-3" src="/images/Ewan.jpg" />
+      <img title="" alt="" class="img-fluid rounded-circle my-3" src="images/Ewan.jpg" />
     <br>
       <small><strong>Ewan Tasker</strong><br/>
       Developer<br/>
@@ -344,7 +344,7 @@
   </div>
   <div class="col-md-3 mb-5">
     <div class="swiper-slide "> 
-      <img title="" alt="" class="img-fluid rounded-circle my-3" src="/images/Lizelle.jpg" />
+      <img title="" alt="" class="img-fluid rounded-circle my-3" src="images/Lizelle.jpg" />
     <br>
       <small><strong>Lizelle Smit</strong><br/>
       Developer<br/>
@@ -354,7 +354,7 @@
   </div>
   <div class="col-md-3 mb-5">
     <div class="swiper-slide "> 
-      <img title="" alt="" class="img-fluid rounded-circle my-3" src="/assets/Njabulo-2520e1eca041e0ece6ff6de6bf96a51e5d31a6a99163c56dd017895ece3930cd.jpg" />
+      <img title="" alt="" class="img-fluid rounded-circle my-3" src="images/Njabulo.jpeg" />
     <br>
       <small><strong>Njabulo Nxumalo</strong><br/>
       Junior Developer<br/>
@@ -364,7 +364,7 @@
   </div>
   <div class="col-md-3 mb-5">
     <div class="swiper-slide "> 
-      <img title="" alt="" class="img-fluid rounded-circle my-3" src="/assets/Hazel-e6a35821636e42e1018b74d255409f868ffcf8aad5083fd6a6a11eba03d2df85.jpg" />
+      <img title="" alt="" class="img-fluid rounded-circle my-3" src="images/Hazel.jpg" />
     <br>
       <small><strong>Hazel Grace</strong><br/>
       Office Administrator<br/>
@@ -429,7 +429,7 @@
         </div>
           <div class="col-lg-6 pr-5 mb-6 mb-lg-0" data-aos="fade-left">
             <div class="" data-jarallax data-speed=".8">
-              <img src="/assets/photos/photo-51-a0e42ee7462ce6835024dd3b7792d7246345943723fb3800d58567ca63a04f5d.jpg" class="display-none-mobile img-fluid"></img>
+              <img src="images/photo-hello.jpg" class="display-none-mobile img-fluid"></img>
             </div>
          </div>
       </div>
